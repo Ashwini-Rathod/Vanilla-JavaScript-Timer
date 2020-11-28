@@ -6,3 +6,5 @@ Also, the project displays a live timer which keeps track of the live time. All 
 
 Live link for the project is given below.
 
+https://ashwini-rathod.github.io/Vanilla-JavaScript-Timer/
+
