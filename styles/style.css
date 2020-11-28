@@ -1,0 +1,122 @@
+body{
+  background: linear-gradient( #cdc9c3, white 20%, #cbaf87 );
+  height: 100vh;
+}
+#timerContainer {
+    font-weight: 300;
+    width:80%;
+    margin: auto;
+    margin-top: 70px;
+    border-top:0px;
+    border: 5px solid gray;
+    text-align: center;
+    background-color: white;
+  }
+  .timer, .reset {
+    width: 80%;
+    padding: 20px 0;
+    font-size: 24px;
+    text-align:center;
+    margin: auto;
+    color: black;
+    cursor: pointer;
+  }
+  .reset {
+    color: white;
+    width:14.9%;
+  }
+  .timer{
+    font-size: 80px;
+    font-weight: bolder;
+    color: rgb(65, 63, 63);
+  }
+  #header{
+    width: 100%;
+    font-weight: bolder;
+    font-size: larger;
+    background: transparent;
+    margin: auto;
+    text-align: center;
+    color: black;
+  }
+  .abc{
+    width: 100%;
+    margin: auto;
+    display: flex;
+  }
+  .start{
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(15, 214, 41);
+    font-size: 25px; 
+  }
+  .start:hover, .pause:hover, .stop:hover{
+    background-color: grey;
+  }
+  .pause{
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(204, 7, 7);
+    font-size: 25px;
+  }
+  .stop{
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: cornflowerblue;
+    font-size: 25px;
+  }
+  .cTime{
+      margin-right: 15px;
+  }
+  .timerD{
+    margin-top: 70px;
+    color: rgb(65, 63, 63);
+  }
+  .img{
+    width: 120px;
+    height: 120px;
+  }
+  .cTime, .img{
+    margin: 0px;
+  }
+  @media (max-width: 800px){
+    .abc{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .start, .pause, .stop{
+      font-size: 18px;
+    }
+  }
+  @media (max-width: 550px){
+    .timer{
+      font-size: 40px;
+    }
+  }
+  @media (max-width: 300px){
+    #header{
+      font-size: 13px;
+      font-weight: bold;
+    }
+    .img{
+      width: 100px;
+      height: 100px;
+    }
+    .cTime{
+       font-size: 18px;
+    }
+    .timer{
+      font-size: 20px;
+    }
+    .start, .pause, .stop{
+      padding: 5px 5px 5px 5px;
+      font-size: 12px;
+    }
+  }
